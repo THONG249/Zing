@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="./style-taplet.css">
+    <link rel="stylesheet" href="./font/css/all.min.css">  
+    <title>Hi</title>
+</head>
+<body>
+  <div class="container-fuild" style="overflow: hidden;">
+    <div class="row"> 
+      <div class="col-lg-2 col-xl-2 col-mb-1 sidebar">
+          <aside class="sidebar-wrapper">
+              <nav class="navbar-wrapper__main">
+                <div class="sidebar-wrapper__logo">
+                  <a href="#">
+                   <img src="https://zmp3-static.zadn.vn/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg" alt="" class="logo">
+                  </a>
+                </div>
+                  <ul class="navbar-list">
+                      <li class="navbar-item">
+                          <a href="#" class="navbar-item__icon">
+                           <ion-icon name="musical-notes-outline"></ion-icon>
+                           <span>Cá nhân</span>
+                          </a>
+                          
+                      </li>
+                      <li class="navbar-item  navbar-item__choose">
+                       <a href="#" class="navbar-item__icon">
+                           <ion-icon name="disc-outline"></ion-icon>
+                        <span>Khám phá</span>
+                       </a>
+                       
+                   </li>
+                   <li class="navbar-item">
+                       <a href="#" class="navbar-item__icon">
+                           <ion-icon name="radio-outline"></ion-icon>
+                        <span>Radio</span>
+                        <img src="https://zjs.zadn.vn/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg" alt="" class="image-icon-live">
+                       </a>
+                       
+                   </li>
+                   <li class="navbar-item">
+                       <a href="#" class="navbar-item__icon">
+                           <ion-icon name="bar-chart-outline"></ion-icon>
+                        <span>#Zing</span>
+                       </a>
+                       
+                   </li>
+                   <li class="navbar-item">
+                       <a href="#" class="navbar-item__icon">
+                           <ion-icon name="reorder-four-outline"></ion-icon>
+                        <span>Theo dõi</span>
+                       </a>
+                       
+                   </li>
+                  </ul>
+              </nav>
+              <div class="sidebar-adive">
+
+              </div>
+              <div class="sidebar-wrapper__main">
+                <ul class="sidebar-wrapper__scroll">
+                  <li class="scroll__item">
+                    <a href="#" class="navbar-item__icon">
+                      <ion-icon name="musical-notes-outline"></ion-icon>
+                   <span>Nhạc mới</span>
+                  </a>
+                  </li>
+                  <li class="scroll__item">
+                    <a href="#" class="navbar-item__icon">
+                      <ion-icon name="grid-outline"></ion-icon>
+                   <span>Thể loại</span>
+                  </a>
+                  </li>
+                  <li class="scroll__item">
+                    <a href="#" class="navbar-item__icon">
+                      <ion-icon name="star-outline"></ion-icon>
+                   <span>Top 100</span>
+                  </a>
+                  </li>
+                  <li class="scroll__item">
+                    <a href="#" class="navbar-item__icon">
+                      <ion-icon name="musical-note-outline"></ion-icon>
+                   <span>MV</span>
+                  </a>
+                  </li>
+                  <li class="scroll-bar-advertisement">
+               
+                    <span class=" scroll-bar-item-ads-heading">Nghe nhạc không quảng cáo cùng kho nhạc VIP</span>
+                    <button class="ads-btn">Mua Vip</button>
+                
+                </li>
+                </ul>
+                
+              <!-- </div>
+               <div class="sidebar-wrapper__add"> 
+                <button class="btn-add">
+                  <ion-icon name="add-outline"></ion-icon>
+                  <span class="btn-add__text">Tạo playlist mới</span>
+                </button>
+              </div>  -->
+              </div>
+              <div class="sidebar-wrapper__add">
+                <button class="btn-add">
+                  <ion-icon name="add-outline"></ion-icon>
+                  <span class="btn-heading">Thêm playlist</span>
+                </button>
+              </div>
+          </aside>
+         </div>
+      <div class="col-lg-10 col-xl-10 nav-header-main">
+      <div class="nav-header">
+        <div class="nav-input">
+          <div class="nav-input-btn">
+           <a href="" class="nav-input-btn-link"><ion-icon name="arrow-back-outline"></ion-icon></a>
+           <a href="" class="nav-input-btn-link"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </div>
+           <div class="nav-search">
+             <div class="nav-search-icon">
+                <a href="#" class="nav-search-icon-link">
+                 <ion-icon name="search-outline"></ion-icon>
+                </a>
+             </div>
+             <div class="nav-search-input">
+              <input type="text" class="nav-header-input" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+             </div>
+           </div>
+           <div class="account-setting"> 
+            <button class="setting"><ion-icon name="settings-outline"></ion-icon></button>
+            <button class="upload"><ion-icon name="cloud-upload-outline"></ion-icon></button>
+            <img src="./image/k-pop.jpg" class="account" alt="Account">
+          </div>
+        </div>
+      </div>
+      <div class="album-box">
+        <div class="album-box-heading">
+          <span class="album-box-heading-text">Gần Đây</span>
+        </div>
+        <div class="wrapper-album">
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/top100.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Top 100</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/eafec2cdf6c24c684531a722bffc5121.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Top nhạc trẻ</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/bxh-song-han-quoc-tuan.0.1.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Bài hát hay nhất</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            
+            <img src="./image/mixtape (1).jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Top nhạc hàn</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/6cc0fc70a85461ed7850b182a38b9dfa.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Ca sĩ nổi tiếng</a>
+          </div>
+         </div>
+        </div>
+        <!--  -->
+        <div class="album-box-heading album-box-heading__second">
+          <span class="album-box-heading-text">Có thể bạn sẽ thích đấy</span>
+        </div>
+        <div class="wrapper-album">
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/6cc0fc70a85461ed7850b182a38b9dfa.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Top 100</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/ging-hat-noi-bat.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Top nhạc trẻ</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/k-pop.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Bài hát hay nhất</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            
+            <img src="./image/rap-viet.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Top nhạc hàn</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/1699aacc2f28666474c576922a4f2213.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Ca sĩ nổi tiếng</a>
+          </div>
+         </div>
+        </div>
+        <!--  -->
+        <div class="album-box-heading album-box-heading__second">
+          <span class="album-box-heading-text">BXH âm nhạc Lào</span>
+        </div>
+        <div class="wrapper-album wrapper-album__end">
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/bich-phuong.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Nhạc hay</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/k-pop.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Top nhạc trẻ</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/bxh-song-han-quoc-tuan.0.1.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Bài hát hay nhất</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            
+            <img src="./image/alice-in-borderland.png" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Top nhạc hàn</a>
+          </div>
+         </div>
+         <div class="wrapper-album-conten">
+          <div class="album-box-first">
+            <img src="./image/6cc0fc70a85461ed7850b182a38b9dfa.jpg" alt="" class="album-box-img">
+            <a href="#" class="album-box-link">
+              <i class="far fa-heart"></i>
+              <i class="far fa-pause-circle"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </div>
+          <div class="img-conten">
+            <a href ="#" class="img-conten-heading">Ca sĩ nổi tiếng</a>
+          </div>
+         </div>
+        </div>
+      </div>
+         </div>
+    </div> 
+    <div class="row">
+      <div class="col-lg-12 music-thumbl">
+        <div class="music-thumbl-cd">
+          <img src="./image/bich-phuong.jpg" alt="" class="music-thumbl-cd-img">
+          <div class="music-thumbl-cd-singer">
+            <span class="name-music">The lord of the rings</span>
+            <a href="#" class="name-singer">Rose</a>
+          </div>
+
+          <div class="music-thumbl-control">
+             <div class="music-thumbl-control-list">
+               <button class="music-thumbl-control-btn"> 
+                 <ion-icon name="shuffle-outline"></ion-icon>
+               </button>
+               <button class="music-thumbl-control-btn"> 
+                 <ion-icon name="play-skip-back-outline"></ion-icon>
+               </button>
+               <button class="music-thumbl-control-btn"> 
+                 <ion-icon class="icon-pause" name="pause-outline"></ion-icon>
+                 <ion-icon class="icon-play" name="play-outline"></ion-icon>
+               </button>
+               <button class="music-thumbl-control-btn"> 
+                 <ion-icon name="play-skip-forward-outline"></ion-icon>
+               </button>
+               <button class="music-thumbl-control-btn"> 
+                 <ion-icon name="repeat-outline"></ion-icon>
+               </button>
+             </div>
+             <div class="music-thumbl-control-prosess">
+                <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+             </div>
+          </div>
+         <div class="music-thumbl-volum">
+           <a href="#" class="music-thumbl-volum-link">
+           <ion-icon class = "volum" name="volume-high-outline"></ion-icon>
+            <input id = "range-volum" type="range"value="0" step="1" min="0" max="100">
+           </a>
+         </div>
+       </div>
+      </div>
+       </div>
+  </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+  tab = () => {
+    var items = document.querySelectorAll(".navbar-item");
+    items.forEach((item, index) => {
+      item.addEventListener("click", () => {
+        removeClass();
+        items[index].classList.add("navbar-item__choose");
+      })
+    })
+    removeClass = () =>{
+      items.forEach((item, index) => {
+        items[index].classList.remove("navbar-item__choose");
+      })
+    }
+  }
+  tab();
+    </script>
+</html>
